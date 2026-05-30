@@ -16,7 +16,7 @@
 git clone https://github.com/themewagon/FaunaFlora.git
 ```
 
-NOTE: npm commands overwrite the ./public directory.
+NOTE: npm commands overwrite files in the project root directory.
 
 Project's source files are placed in ./src/ directory.
 

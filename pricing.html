@@ -13,9 +13,6 @@
   <body class="antialiased bg-body text-body font-body">
     <div>
       <div>
-        <p class="mb-0 py-3 bg-lime-500 text-center">want arya paper <a href="#!">hahaha</a></p>
-      </div>
-      <div>
         <section class="relative bg-teal-900" x-data="{ mobileNavOpen: false }"><img class="absolute top-0 left-0 w-full h-full" src="fauna-assets/headers/bg-waves.png" alt=""/>
           <nav class="py-6">
             <div class="container mx-auto px-4">
@@ -84,26 +81,116 @@
           </div>
         </section>
       </div>
-      <section class="relative py-12 lg:py-24 overflow-hidden"><img class="absolute bottom-0 left-0" src="fauna-assets/about/lines.svg" alt=""/>
+      <section class="relative py-12 lg:py-24 overflow-hidden"><img class="absolute top-0 right-0" src="fauna-assets/pricing/waves-right-top.png" alt=""/>
         <div class="container mx-auto px-4 relative">
-          <div class="max-w-4xl mx-auto text-center">
-            <h1 class="font-heading text-5xl sm:text-6xl mb-8">About us</h1>
-            <p class="text-2xl text-black font-medium mb-10">At Flora&Fauna, we're committed to a sustainable future. As a pioneering force in the green energy sector, we've been at the forefront of the transition to clean, renewable power sources. Our mission is simple yet profound: to create a world where energy is not only abundant but also environmentally responsible. We believe that by harnessing the power of nature, we can power the world and protect it simultaneously.</p><a class="inline-flex py-4 px-6 items-center justify-center text-lg font-medium text-teal-900 hover:text-white border border-teal-900 hover:bg-teal-900 rounded-full transition duration-200" href="#!">Read more</a>
+          <div class="max-w-2xl mx-auto text-center mb-20">
+            <h1 class="font-heading text-5xl sm:text-6xl tracking-xs mb-6">Our Products</h1>
+              <section class="py-12 lg:py-24 overflow-hidden" x-data="{ activeSlide: 1, slideCount: 3 }">
+                   <div class="container mx-auto px-4">
+                     <div class="flex flex-wrap items-center -mx-4">
+                      <div class="w-full md:w-1/2 px-4 mb-12 md:mb-0">
+                        <div class="max-w-lg mx-auto md:mx-0 overflow-hidden">
+                      <div class="flex -mx-4 transition-transform duration-500" :style="'transform: translateX(-' + (activeSlide - 1) * 100 + '%)'"><img class="block flex-shrink-0 w-full px-4" src="fauna-assets/testimonials/75gsm.jpeg" alt=""/><img class="block flex-shrink-0 w-full px-4" src="fauna-assets/testimonials/photo-lg.png" alt=""/><img class="block flex-shrink-0 w-full px-4" src="fauna-assets/testimonials/75gsm.jpeg" alt=""/></div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 px-4">
+              <div class="max-w-lg mx-auto md:mr-0 overflow-hidden">
+                <div class="flex -mx-4 transition-transform duration-500" :style="'transform: translateX(-' + (activeSlide - 1) * 100 + '%)'">
+                  <div class="flex-shrink-0 px-4 w-full">
+                    <span class="block text-xl font-medium"> A4   75 GSM</span>                             
+                    <span class="block mb-12 lg:mb-32 text-lg text-gray-700"> 
+                      Product : Plain copier paper<br>
+                      Size : 210mmX297mm <br>
+                      Gsm : 75<br>
+                      Net weight : 2.30 kg<br>
+                      Sheets : 500 N
+<h4>Features</h4>
+                      <b>Premium quality Two side copy Multiple usage </b></span>
+                  </div>
+                  </div>
+            </div>
+
+            </div>
           </div>
         </div>
       </section>
-      <section class="py-12 lg:py-24">
+       <section class="py-12 lg:py-24 overflow-hidden" x-data="{ activeSlide: 1, slideCount: 3 }">
         <div class="container mx-auto px-4">
-          <div class="flex flex-wrap -mx-4 mb-24">
-            <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
-              <div>
-                    </section>
+          <div class="flex flex-wrap items-center -mx-4">
+            <div class="w-full md:w-1/2 px-4 mb-12 md:mb-0">
+              <div class="max-w-lg mx-auto md:mx-0 overflow-hidden">
+                <div class="flex -mx-4 transition-transform duration-500" :style="'transform: translateX(-' + (activeSlide - 1) * 100 + '%)'"><img class="block flex-shrink-0 w-full px-4" src="fauna-assets/testimonials/75gsm.jpeg" alt=""/><img class="block flex-shrink-0 w-full px-4" src="fauna-assets/testimonials/photo-lg.png" alt=""/><img class="block flex-shrink-0 w-full px-4" src="fauna-assets/testimonials/80gsm.jpeg" alt=""/></div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 px-4">
+              <div class="max-w-lg mx-auto md:mr-0 overflow-hidden">
+                <div class="flex -mx-4 transition-transform duration-500" :style="'transform: translateX(-' + (activeSlide - 1) * 100 + '%)'">
+                  <div class="flex-shrink-0 px-4 w-full">
+                    <span class="block text-xl font-medium">75 GSM</span>                             
+                    <span class="block mb-12 lg:mb-32 text-lg text-gray-700"> * Premium quality  * Two side copy * Multiple usage </span>
+                  </div>
+                  </div>
+            </div>
+               
+            </div>
+          </div>
+        </div>
+      </section>
+ <section class="py-12 lg:py-24 overflow-hidden" x-data="{ activeSlide: 1, slideCount: 3 }">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap items-center -mx-4">
+            <div class="w-full md:w-1/2 px-4 mb-12 md:mb-0">
+              <div class="max-w-lg mx-auto md:mx-0 overflow-hidden">
+                <div class="flex -mx-4 transition-transform duration-500" :style="'transform: translateX(-' + (activeSlide - 1) * 100 + '%)'"><img class="block flex-shrink-0 w-full px-4" src="fauna-assets/testimonials/75gsm.jpeg" alt=""/><img class="block flex-shrink-0 w-full px-4" src="fauna-assets/testimonials/photo-lg.png" alt=""/><img class="block flex-shrink-0 w-full px-4" src="fauna-assets/testimonials/75gsm.jpeg" alt=""/></div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 px-4">
+              <div class="max-w-lg mx-auto md:mr-0 overflow-hidden">
+                <div class="flex -mx-4 transition-transform duration-500" :style="'transform: translateX(-' + (activeSlide - 1) * 100 + '%)'">
+                  <div class="flex-shrink-0 px-4 w-full">
+                    <span class="block text-xl font-medium">75 GSM</span>                             
+                    <span class="block mb-12 lg:mb-32 text-lg text-gray-700"> * Premium quality  * Two side copy * Multiple usage </span>
+                  </div>
+                  </div>
+            </div>
+               
+            </div>
+          </div>
+        </div>
+      </section>
+ <section class="py-12 lg:py-24 overflow-hidden" x-data="{ activeSlide: 1, slideCount: 3 }">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap items-center -mx-4">
+            <div class="w-full md:w-1/2 px-4 mb-12 md:mb-0">
+              <div class="max-w-lg mx-auto md:mx-0 overflow-hidden">
+                <div class="flex -mx-4 transition-transform duration-500" :style="'transform: translateX(-' + (activeSlide - 1) * 100 + '%)'"><img class="block flex-shrink-0 w-full px-4" src="fauna-assets/testimonials/75gsm.jpeg" alt=""/><img class="block flex-shrink-0 w-full px-4" src="fauna-assets/testimonials/photo-lg.png" alt=""/><img class="block flex-shrink-0 w-full px-4" src="fauna-assets/testimonials/75gsm.jpeg" alt=""/></div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 px-4">
+              <div class="max-w-lg mx-auto md:mr-0 overflow-hidden">
+                <div class="flex -mx-4 transition-transform duration-500" :style="'transform: translateX(-' + (activeSlide - 1) * 100 + '%)'">
+                  <div class="flex-shrink-0 px-4 w-full">
+                    <span class="block text-xl font-medium">75 GSM</span>                             
+                    <span class="block mb-12 lg:mb-32 text-lg text-gray-700"> * Premium quality  * Two side copy * Multiple usage </span>
+                  </div>
+                  </div>
+            </div>
+               
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+
+        </div>
+      </section>
       <div>
         <div>
-          
         </div>
       </div>
-      <section class="relative py-12 lg:py-24 bg-orange-50 overflow-hidden"><img class="absolute bottom-0 left-0" src="fauna-assets/footer/waves-lines-left-bottom.png" alt=""/>
+           <section class="relative py-12 lg:py-24 bg-orange-50 overflow-hidden"><img class="absolute bottom-0 left-0" src="fauna-assets/footer/waves-lines-left-bottom.png" alt=""/>
         <div class="container px-4 mx-auto relative">
           <div class="flex flex-wrap mb-16 -mx-4">
             <div class="w-full lg:w-2/12 xl:w-2/12 px-4 mb-16 lg:mb-0"><a class="inline-block mb-4" href="#!"><img src="images/logo.jpeg" alt=""/></a></div>
